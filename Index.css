@@ -1,0 +1,30 @@
+body { 
+  background: #418bbc; 
+}
+ 
+.hootpile {
+	background: #fff;
+	border-radius: 9%;
+	display: block;
+	height: 100px;
+	left: 50%;
+	margin: -51px 0 0 -49px;
+	position: absolute;
+	top: 50%;
+	width: 100px; 
+}
+ 
+.hootpile:after {
+	color: #418bbc;
+	content: "h";
+	display: block;
+	font-size: 80px;
+  font-family: Hootpile Letter Faces, Arial;
+  font-weight: bold;
+	margin: 6% 0 0 30%; 
+}
+ 
+.hootpile:hover {
+	-moz-box-shadow: 0px 0px 7px rgba(255, 250, 250, 0.75);
+	-webkit-box-shadow: 0px 0px 7px rgba(255, 250, 250, 0.75);
+	box-shadow: 0px 0px 7px rgba(255, 250, 250, 0.90); }
